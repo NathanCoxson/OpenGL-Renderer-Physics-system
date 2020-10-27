@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{cdf40e6f-ee01-4613-ae5b-e3405d29f139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{deb74658-ccde-4e85-be07-6e7523048323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{67cf57de-fa38-4506-94b1-3c372fd3084a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{4ffc30cc-7be7-492e-ba92-d11dd8996255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{4f0b3a7f-cdf8-45c5-94ee-fb34e218eed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{bcb1695a-fdb7-4097-96af-2bd1bd123720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Meshes">
+      <UniqueIdentifier>{226594dc-35fb-4432-b62f-9ac48733819d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Meshes\Colliders">
+      <UniqueIdentifier>{d4789d2f-88a4-4fb1-b56b-bce2d59f4040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Meshes\Render">
+      <UniqueIdentifier>{0820a072-7814-4911-b6af-6172e5c7f645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Meshes">
+      <UniqueIdentifier>{4534926c-8bac-479d-9655-9887a5537ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Meshes\Colliders">
+      <UniqueIdentifier>{55e97ab5-4021-46b0-afc4-a704c7bf1671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Meshes\Render">
+      <UniqueIdentifier>{89b55898-0c66-461f-862f-d4694daf66a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Commands">
+      <UniqueIdentifier>{6cfa7a7d-4c0c-4cd5-9615-d3c8e66c9fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Commands">
+      <UniqueIdentifier>{d8b01ab3-17df-4ca7-afb4-e2b5530aa31a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Scripts">
+      <UniqueIdentifier>{33046197-3b20-4d8c-b19f-67f1c552e317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Scripts">
+      <UniqueIdentifier>{082a97f1-2d88-4db7-816b-49c8173dcab2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemBuffer.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemColliders.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPhysics.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemManager.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemRenderer.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderMesh.cpp">
+      <Filter>Source Files\Meshes\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="AABBCollider.cpp">
+      <Filter>Source Files\Meshes\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="OBBCollider.cpp">
+      <Filter>Source Files\Meshes\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>Source Files\Meshes\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderMesh.cpp">
+      <Filter>Source Files\Meshes\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="LightComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Source Files\System\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ForceCommand.cpp">
+      <Filter>Source Files\System\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SetVelocityCommand.cpp">
+      <Filter>Source Files\System\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiCommand.cpp">
+      <Filter>Source Files\System\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ToggleCullOrientationCommand.cpp">
+      <Filter>Source Files\System\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ToggleMSAACommand.cpp">
+      <Filter>Source Files\System\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SetMainCameraCommand.cpp">
+      <Filter>Source Files\System\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="BroadPhaseCollider.cpp">
+      <Filter>Source Files\Meshes\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="OctTreeBroadPhase.cpp">
+      <Filter>Source Files\Meshes\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="ToggleBoolCommand.cpp">
+      <Filter>Source Files\System\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SetInputEntityCommand.cpp">
+      <Filter>Source Files\System\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckInputEntityCommand.cpp">
+      <Filter>Source Files\System\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ToggleFloatCommand.cpp">
+      <Filter>Source Files\System\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Source Files\System\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SetEntityVelocityCommand.cpp">
+      <Filter>Source Files\System\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files\System\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="BallSpawnScript.cpp">
+      <Filter>Source Files\System\Scripts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemBuffer.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemManager.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemPhysics.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemRenderer.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemColliders.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBCollider.h">
+      <Filter>Header Files\Meshes\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>Header Files\Meshes\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="OBBCollider.h">
+      <Filter>Header Files\Meshes\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderMesh.h">
+      <Filter>Header Files\Meshes\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderMesh.h">
+      <Filter>Header Files\Meshes\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="LightComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files\System\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceCommand.h">
+      <Filter>Header Files\System\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SetVelocityCommand.h">
+      <Filter>Header Files\System\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiCommand.h">
+      <Filter>Header Files\System\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="ToggleMSAACommand.h">
+      <Filter>Header Files\System\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="ToggleCullOrientationCommand.h">
+      <Filter>Header Files\System\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SetMainCameraCommand.h">
+      <Filter>Header Files\System\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="OctTreeBroadPhase.h">
+      <Filter>Header Files\Meshes\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="BroadPhaseCollider.h">
+      <Filter>Header Files\Meshes\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="ToggleBoolCommand.h">
+      <Filter>Header Files\System\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SetInputEntityCommand.h">
+      <Filter>Header Files\System\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckInputEntityCommand.h">
+      <Filter>Header Files\System\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>Header Files\System\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="ToggleFloatCommand.h">
+      <Filter>Header Files\System\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SetEntityVelocityCommand.h">
+      <Filter>Header Files\System\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="BallSpawnScript.h">
+      <Filter>Header Files\System\Scripts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VertexShader.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="FragmentShader.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LineFragmentShader.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LineVertexShader.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
