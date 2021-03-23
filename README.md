@@ -1,4 +1,4 @@
-# Cov-Uni-Year-2-OpenGL-Renderer-Physics-System
+# OpenGL Renderer & Physics System
 Year 2 Games Technology Project - OpenGL Renderer &amp; Physics System
 
 
