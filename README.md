@@ -10,10 +10,10 @@ Q,E Up/Down for Camera 5 Control
 
 Spacebar - Set linear and rotational velocity to 0 (For ease of use)
 
-1 Key - Camera 
-2 Key - Camera
-3 Key - Camera
-4 Key - Camera
+1 Key - Camera,
+2 Key - Camera,
+3 Key - Camera,
+4 Key - Camera,
 5 Key - Separate controllable camera 
 
 F - Toggle Hovercraft Flashlight/Spotlight
