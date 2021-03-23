@@ -23,6 +23,6 @@ C - Toggle Skybox Lighting
 V - Toggle Debug Draw
 B - Toggle Cull
 N - Toggle MSAA
-M - Start Subdivide (Can't reverse)
+M - Increase Subdivision Amount (Can't reverse)
 H - Move Col Cubes
 J - Toggle Sphere Spawning
